@@ -1,0 +1,52 @@
+# Node modules and vendor dependencies
+/node_modules
+/vendor
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Laravel-specific files
+.env
+.env.*
+/storage
+/storage/logs
+/storage/framework
+/public/storage
+
+# Cache files
+*.log
+*.cache
+*.temp
+*.bak
+*.swp
+*.swo
+*.tmp
+*.pid
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# PHPUnit test results
+/phpunit.result.cache
+
+# Composer files
+composer.lock
+/vendor/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Build files
+/.phpunit.cache
+/phpunit.xml
+/phpunit.xml.dist
+
+# Swagger/OpenAPI documentation (if generated dynamically)
+/storage/api-docs/swagger.json
+
+# Specific to Laravel Packages
+/.phpstorm.meta.php
